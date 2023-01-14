@@ -13,7 +13,7 @@ def index():
 def test():
     output = request.get_json()
     result = json.loads(output)
-    url = result.get("job")
-    result = crawl(url)
-    print(result)
-    return result #the job description
+    url = crawl(result.get("job"))
+    print(url)
+    resume = result.get("resume")
+    
