@@ -31,23 +31,15 @@
       <hr class="col-3 col-md-2 mb-5">
 
       <div class="row g-5">
-        <div class="col-md-6">
-          <h2>Step 1</h2>
-          <div class="mb-3">
-            <label for="job">Enter the URL of the job page you found on LinkedIn:</label>
-            <input type="text" class="form-control" id="job" aria-describedby="job" placeholder="Enter job's URL on LinkedIn">
-          </div>
-          <small id="urlHelp" class="form-text text-muted">It should be something like https://www.linkedin.com/jobs/view/1234567</small>
-        </div>
 
-        <div class="col-md-6">
-          <h2>Step 2</h2>
-          <div class="mb-3">
-            <label for="resume" class="resume">Upload your resume (.docx or .pdf): </label>
-            <input class="form-control" type="file" id="resume">
-          </div>
-          <button type="submit" class="btn btn-dark" onclick="myfunction()">Submit</button>
-        </div>
+        <h2>Step 1</h2>
+        <label for="job">Enter the URL of the job page you found on LinkedIn:</label>
+        <input type="text" class="form-control" aria-describedby="job" placeholder="Enter job's URL on LinkedIn" id="job">
+
+        <h2>Step 2</h2>
+        <label for="resume" class="resume">Upload your resume (.docx or .pdf): </label>
+        <input class="form-control" type="file" id="resume">
+        <button type="submit" class="btn btn-dark" onclick="submit()">Submit</button>
 
       </div>
     </main>
@@ -61,14 +53,16 @@
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
 
   <script>
-    function myfunction() {
-
+    function submit() {
       const job = document.getElementById("job").value;
-
-      const dict_values = {job} //Pass the javascript variables to a dictionary.
-      const s = JSON.stringify(dict_values); // Stringify converts a JavaScript object or value to a JSON string
-      console.log(s); // Prints the variables to console window, which are in the JSON format
-      window.alert(s)
+      console.log(job);
+      const resume = document.getElementById("resume").files[0].name;
+      console.log(resume);
+      const dict_values = {
+        job,
+        resume
+      };
+      const s = JSON.stringify(dict_values);
       $.ajax({
         url: "/test",
         type: "POST",

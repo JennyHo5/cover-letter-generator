@@ -3,6 +3,7 @@ from flask import request
 from flask import Flask, render_template
 app = Flask(__name__)
 from crawler import crawl
+from resume_pdf import get_resume
 
 
 @app.route('/')
@@ -15,5 +16,6 @@ def test():
     result = json.loads(output)
     url = crawl(result.get("job"))
     print(url)
-    resume = result.get("resume")
-    
+    resume = get_resume(result.get("resume"))
+    print(resume)
+    return result
