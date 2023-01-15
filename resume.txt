@@ -1,1 +1,115 @@
- 1 Jiayu Hu (+1)647-678-2464 jiayuhu@cmail.carleton.ca jennyho5.github.io/personal-site  EDUCATION  Bachelor of Computer Science, Major, Co-op Option  Sep 2022-Present Carleton University, Ottawa, ON, Canada ● Third Year Standing – 12 through 13.5 credits, 11/12 (A) ● Expected Graduation Date: Dec 2025  Bachelor of Management in Accounting Sep 2018-Jun 2022 Zhongnan University of Economics and Law, Wuhan, China ● Final GPA: 3.8/4.0 (89.84/100) ● Awards and scholarships: Scientific Research Innovation Scholarship  RELEVANT SKILLS, EXPERIENCES AND ACCOMPLISHMENTS  Technical Skills ● Created a 2D shooter game using Unity and C# that could be deployed on the web and PC ● Implemented a web crawler and a search engine using Python, aiming to minimize the runtime and space complexity of the operations ● Re-implemented the search engine’s functionality in Java and applied a GUI application that allows the user to perform searches and see search results ● Built web-based applications such as Simon Game, drum kit and todo list using HTML, CSS, JavaScript and Node.js ● Designed a personal site using HTML, CSS, JavaScript and BootStrap to display personal information and experience  Communication Skills  ● Collaborated with three team members in a three-day Hackathon to use solar energy leveraging the power of 5G and finally won the first-place prize ● Native speaker of Chinese and fluent in English: TOEFL score 108/120 (Reading 30/30, Listening 30/30, Speaking 21/30, Writing 27/30)  WORK EXPERIENCE  Intern in Audit Department  Jan-Feb 2021 Ernst & Young Hua Ming LLP, Shanghai, China  ● Supported senior staff from two audit teams in the completion of audit reports and financial statements at the end of the accounting year ● Analyzed balance sheets for two companies using Excel to determine their financial health  APPLIED PROJECTS Developer Dec 2022- Jan 2023 Galaxy Shooter 2D Game ● Built a galaxy shooter 2D game with full functionalities, UI, effects and audio using Unity and C# ● Deployed the game to web and PC platforms  
+Sara Lu
+123-456-7890
+| sara.lu123@gmail.com
+TECHNICAL SKILLS
+Languages:
+Python | Java| Swift | Ruby
+Developer Tools:
+Git | Jira (Agile) | MongoDB | Jupyter
+Technologies/Frameworks:
+TensorFlow | NumPy | React
+| ROS
+Summary
+Motivated
+student
+completing
+Computer
+Science
+degree.
+Experienced
+in
+Agile
+and
+Scrum
+environments. 
+Supports
+team
+administrative,
+project
+coordination,
+design
+and
+programming
+needs.
+Fluent
+in
+English. 
+School
+projects
+included
+building
+apps,
+optimizing
+programs
+and
+validating
+code.
+Complex 
+problem-solver
+with
+analytical
+and
+driven
+mindset.
+Dedicated
+to
+achieving
+demanding
+development 
+objectives
+according
+to
+tight
+schedules
+while
+producing
+impeccable
+code.
+Multitalented
+Mobile
+Developer 
+with
+experience
+in
+Java
+software
+industry .
+Demonstrated
+excellent
+skills
+in
+HTML,
+JavaScript
+and
+Python. 
+True team player with strengths in adaptability and accuracy .
+EXPERIENCE
+Software Developer Intern
+October 2022 
+CIBC
+Waterloo, ON 
+●
+Supported development, QA  and user experience staf f to develop new products. 
+●
+Developed a web-based app project using Ruby programming language. 
+●
+Learned software engineering process improvements and best practices. 
+●
+Wrote clear , clean code for various projects using native Android development
+Mobile Developer
+January 2022 - May 2022 
+TD Bank
+Waterloo, ON 
+●
+Collaborated across multi-disciplinary teams using Agile development frameworks. 
+●
+Developed landing pages, dashboards and online applications using Python, Java and Swift scripting. 
+●
+Developed landing pages, dashboards and online applications using Python, Java and Swift scripting. 
+●
+Documented design patterns for UX and UI as templates in subsequent patches and iterative app
+development cycles.
+EDUCATION
+University of Waterloo
+Sept 1999 - May 2002 
+B.Sc in Computer Science, Minor in Machine Learning
