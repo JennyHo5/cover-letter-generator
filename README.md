@@ -1,2 +1,4 @@
-To run the program, use :
+To run the program, use:
+```
 python3 -m flask run
+```
