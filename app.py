@@ -5,6 +5,10 @@ app = Flask(__name__)
 from crawler import crawl
 from resume_pdf import get_resume
 
+
+
+
+
 @app.route('/')
 def index():
     return render_template('home.html')
